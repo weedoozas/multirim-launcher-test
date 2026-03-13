@@ -1,8 +1,8 @@
 {
-  "version": "mods-v1",
+  "version": "mods-v2",
   "config": {
     "url": "https://raw.githubusercontent.com/weedoozas/multirim-launcher-test/main/configs/ModsConfig.xml",
-    "sha256": "ea6ce2b6cd877c906c36baa237cee70feaedcede4296fb83d868e2541060a0cc"
+    "sha256": "06ffa530e855c4ae2ae788f16c7b801232eb239b22aaae2e285d39c7f1aedf51"
   },
   "mods": [
     {
@@ -10,16 +10,24 @@
       "folder": "HarmonyMod",
       "packageId": "brrainz.harmony",
       "modVersion": "2.4.2.0",
-      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v1/Harmony.zip",
-      "sha256": "7eae9cc854ede9b31247d1c134bdc23980c5d2a4f958e443742f95ac6b79c514"
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v2/Harmony.zip",
+      "sha256": "9b558dca09033dd66c18bfa86b93e9fb5bea25e9d61769c2f027a2c1d58dadd7"
     },
     {
       "name": "Multiplayer",
       "folder": "Multiplayer",
       "packageId": "rwmt.multiplayer",
       "modVersion": "0.11.1",
-      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v1/Multiplayer.zip",
-      "sha256": "54ff678a954076e5e908dabaf9150ab9f5357839ec4923ae2bf61c41658afe33"
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v2/Multiplayer.zip",
+      "sha256": "549685d9c63d0b6d323f10a962afde32ae4749b9ebde5805573fb1129e017887"
+    },
+    {
+      "name": "Faster Game Loading - Continued",
+      "folder": "3652938473_faster_game_loading__continued",
+      "packageId": "taranchuk.fastergameloading",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v2/FasterGameLoading.zip",
+      "sha256": "411023e2bdfa9c1ba31d8072a5e33adcb6a4f49cae945c20b8991aad48c7d042"
     }
   ]
 }

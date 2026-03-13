@@ -6,6 +6,7 @@ It currently publishes test assets for:
 
 - Harmony `2.4.2.0`
 - Multiplayer `0.11.1`
+- Faster Game Loading - Continued
 - Canonical `ModsConfig.xml` for automatic activation and order
 
 Notes:
