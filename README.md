@@ -1,0 +1,14 @@
+# MultiRim Launcher Test Repo
+
+This is a public test repository for experimenting with a RimWorld multiplayer launcher updater.
+
+It currently publishes test assets for:
+
+- Harmony `2.4.2.0`
+- Multiplayer `0.11.1`
+
+Notes:
+
+- This repository is for testing and personal automation flows.
+- Rights for each mod remain with their original authors.
+- If redistribution of any asset is a problem, remove the release asset and switch the launcher to official upstream URLs.

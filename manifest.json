@@ -1,0 +1,21 @@
+{
+  "version": "mods-v1",
+  "mods": [
+    {
+      "name": "Harmony",
+      "folder": "HarmonyMod",
+      "packageId": "brrainz.harmony",
+      "modVersion": "2.4.2.0",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v1/Harmony.zip",
+      "sha256": "7eae9cc854ede9b31247d1c134bdc23980c5d2a4f958e443742f95ac6b79c514"
+    },
+    {
+      "name": "Multiplayer",
+      "folder": "Multiplayer",
+      "packageId": "rwmt.multiplayer",
+      "modVersion": "0.11.1",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v1/Multiplayer.zip",
+      "sha256": "54ff678a954076e5e908dabaf9150ab9f5357839ec4923ae2bf61c41658afe33"
+    }
+  ]
+}

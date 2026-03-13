@@ -1,0 +1,9 @@
+MultiRim Launcher Test Repository Notice
+
+This repository is published as a public testing repository for launcher and update workflow experiments.
+
+Unless otherwise stated, original game files and third-party mod files included in releases remain the property of their respective authors and rightsholders.
+
+The repository source files created for the launcher workflow may be used, copied, modified, and redistributed for testing and personal use.
+
+No warranty is provided.
