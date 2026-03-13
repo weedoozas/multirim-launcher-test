@@ -1,5 +1,9 @@
 {
   "version": "mods-v1",
+  "config": {
+    "url": "https://raw.githubusercontent.com/weedoozas/multirim-launcher-test/main/configs/ModsConfig.xml",
+    "sha256": "ea6ce2b6cd877c906c36baa237cee70feaedcede4296fb83d868e2541060a0cc"
+  },
   "mods": [
     {
       "name": "Harmony",
