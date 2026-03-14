@@ -1,8 +1,8 @@
 {
-  "version": "mods-v2",
+  "version": "mods-v3",
   "config": {
     "url": "https://raw.githubusercontent.com/weedoozas/multirim-launcher-test/main/configs/ModsConfig.xml",
-    "sha256": "06ffa530e855c4ae2ae788f16c7b801232eb239b22aaae2e285d39c7f1aedf51"
+    "sha256": "21fd5abcd4dae7e8cc5bddb9b659ef52e4905bc35c469a00eb66c99ee774622d"
   },
   "mods": [
     {
@@ -10,24 +10,600 @@
       "folder": "HarmonyMod",
       "packageId": "brrainz.harmony",
       "modVersion": "2.4.2.0",
-      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v2/Harmony.zip",
-      "sha256": "9b558dca09033dd66c18bfa86b93e9fb5bea25e9d61769c2f027a2c1d58dadd7"
-    },
-    {
-      "name": "Multiplayer",
-      "folder": "Multiplayer",
-      "packageId": "rwmt.multiplayer",
-      "modVersion": "0.11.1",
-      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v2/Multiplayer.zip",
-      "sha256": "549685d9c63d0b6d323f10a962afde32ae4749b9ebde5805573fb1129e017887"
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/HarmonyMod.zip",
+      "sha256": "28f71428723a7527d6f4bc5ebe5b3720eb67cab544b155345da3a524c11b4290"
     },
     {
       "name": "Faster Game Loading - Continued",
       "folder": "3652938473_faster_game_loading__continued",
       "packageId": "taranchuk.fastergameloading",
       "modVersion": "1.6",
-      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v2/FasterGameLoading.zip",
-      "sha256": "411023e2bdfa9c1ba31d8072a5e33adcb6a4f49cae945c20b8991aad48c7d042"
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3652938473_faster_game_loading__continued.zip",
+      "sha256": "e781df6c11558d3a926bf92f9aeef480fdbba6886a9ff77b124a6dd507f96f5c"
+    },
+    {
+      "name": "Multiplayer",
+      "folder": "Multiplayer",
+      "packageId": "rwmt.multiplayer",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/Multiplayer.zip",
+      "sha256": "a839f8b0d9c1724acc44ca53beb66e53c209829fd62d9f6e676c769eadb2d2dc"
+    },
+    {
+      "name": "Gunplay",
+      "folder": "2034896549_gunplay",
+      "packageId": "automatic.gunplay",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2034896549_gunplay.zip",
+      "sha256": "104032966af02039f4278ee81c065af7779fd3d19408491b6862247670ca5143"
+    },
+    {
+      "name": "Yayo's Combat 3 (Continued)",
+      "folder": "2854006492_yayos_combat_3_continued",
+      "packageId": "mlie.yayoscombat3",
+      "modVersion": "1.6.7",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2854006492_yayos_combat_3_continued.zip",
+      "sha256": "a4363c1eaccf3d88bfe96f5977a21628e904a3b681519758c23a9135343284a6"
+    },
+    {
+      "name": "Yayo's Caravan (Continued)",
+      "folder": "2886919774_yayos_caravan_continued",
+      "packageId": "mlie.yayoscaravan",
+      "modVersion": "1.6.0",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2886919774_yayos_caravan_continued.zip",
+      "sha256": "958f3f768ad0b11deff13e12b95d766886e69bb001abc7c4e99ed0ec6fb18705"
+    },
+    {
+      "name": "Giddy-Up 2 - Continued",
+      "folder": "3674332861_giddyup_2__continued",
+      "packageId": "memegoddess.giddyup",
+      "modVersion": "2.2.5",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3674332861_giddyup_2__continued.zip",
+      "sha256": "7465910d7c52d72ee9beff4a3ed47503ebecb71bf31573b6eaac108b1b2af71d"
+    },
+    {
+      "name": "Yayo's Animation (Continued)",
+      "folder": "2877292196_yayos_animation_continued",
+      "packageId": "com.yayo.yayoani.continued",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2877292196_yayos_animation_continued.zip",
+      "sha256": "ea5e8ab67ad40b48aaeea2c16260fc18e82d0f54329d6fbe97ff7c36e1e8d97e"
+    },
+    {
+      "name": "Who shot my leg off?",
+      "folder": "3491552121_who_shot_my_leg_off",
+      "packageId": "tixiv.whoshotmylegoff",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3491552121_who_shot_my_leg_off.zip",
+      "sha256": "32da48ba0303f5279c908ce38953bafc51e8c234dbf675b10fb4a198c0a87952"
+    },
+    {
+      "name": "Vanilla Expanded Framework",
+      "folder": "2023507013_vanilla_expanded_framework",
+      "packageId": "oskarpotocki.vanillafactionsexpanded.core",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2023507013_vanilla_expanded_framework.zip",
+      "sha256": "3988a43732ffa03805d81c4afe08cb4ce092b6b6e5ee6f5ea71326d50854c72a"
+    },
+    {
+      "name": "Vanilla Plants Expanded",
+      "folder": "2134308522_vanilla_plants_expanded",
+      "packageId": "vanillaexpanded.vplantse",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2134308522_vanilla_plants_expanded.zip",
+      "sha256": "b23b1684fa59f3505b7910718bdaa4e4153642926b51601ad6729cfb56800f67"
+    },
+    {
+      "name": "Vanilla Plants Expanded - More Plants",
+      "folder": "2748889667_vanilla_plants_expanded__more_plants",
+      "packageId": "vanillaexpanded.vplantsemore",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2748889667_vanilla_plants_expanded__more_plants.zip",
+      "sha256": "2998759cd685fbdbf509d8dbb6aa05cdd644ea0aae030329ef90d6c7214c1540"
+    },
+    {
+      "name": "Vanilla Plants Expanded - Mushrooms",
+      "folder": "3006389281_vanilla_plants_expanded__mushrooms",
+      "packageId": "vanillaexpanded.vplantsemushrooms",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3006389281_vanilla_plants_expanded__mushrooms.zip",
+      "sha256": "6ce0b6b5c6db05dc98dd990716deea3a98342a0952fa45295e2faeb335594e5a"
+    },
+    {
+      "name": "Vanilla Plants Expanded - Spanish Latin Patch",
+      "folder": "libar_vpe_spanishlatin",
+      "packageId": "libar.vpe.spanishlatin",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/libar_vpe_spanishlatin.zip",
+      "sha256": "9ab766f22eeaf85c8372f3a106e8bc88e3dc4b720e81dc710aa0e91b9219eb5b"
+    },
+    {
+      "name": "Vanilla Weapons Expanded - Laser",
+      "folder": "1989352844_vanilla_weapons_expanded__laser",
+      "packageId": "vanillaexpanded.vwel",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1989352844_vanilla_weapons_expanded__laser.zip",
+      "sha256": "c6fddcc1104378893961e083e5dc0ceb57dbf537031ab47ff0b4dd188c729e1c"
+    },
+    {
+      "name": "Vanilla Weapons Expanded - Grenades",
+      "folder": "2194472657_vanilla_weapons_expanded__grenades",
+      "packageId": "vanillaexpanded.vweg",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2194472657_vanilla_weapons_expanded__grenades.zip",
+      "sha256": "e3e98cde1bb8ed3f65e9ee57cd1d0acc3e1c71f28c8bda63d8d8ce479a69967a"
+    },
+    {
+      "name": "Vanilla Weapons Expanded - Coilguns",
+      "folder": "2375692535_vanilla_weapons_expanded__coilguns",
+      "packageId": "vanillaexpanded.vwec",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2375692535_vanilla_weapons_expanded__coilguns.zip",
+      "sha256": "8afe991baeb4a580d0994f85358c5178b7945d8b1ba1091ecba5d4ff1fc3c852"
+    },
+    {
+      "name": "Vanilla Weapons Expanded - Frontier",
+      "folder": "2454918139_vanilla_weapons_expanded__frontier",
+      "packageId": "vanillaexpanded.vweft",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2454918139_vanilla_weapons_expanded__frontier.zip",
+      "sha256": "08cfddeb5257132dc9ed60e84512455e01a6f5a6258ec87957a52cdac0d9f37d"
+    },
+    {
+      "name": "Vanilla Weapons Expanded - Bioferrite",
+      "folder": "3287469135_vanilla_weapons_expanded__bioferrite",
+      "packageId": "vanillaexpanded.vwebf",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3287469135_vanilla_weapons_expanded__bioferrite.zip",
+      "sha256": "072d50b45ae8fd185250589307fa4d97c5eff83c8f2840726e24565f85667005"
+    },
+    {
+      "name": "Vanilla Weapons Expanded",
+      "folder": "1814383360_vanilla_weapons_expanded",
+      "packageId": "vanillaexpanded.vwe",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1814383360_vanilla_weapons_expanded.zip",
+      "sha256": "657531140c4c63a752027e90a5904c86473d3feb0da04dc0e49810c891e32c8e"
+    },
+    {
+      "name": "Vanilla Temperature Expanded",
+      "folder": "3202046258_vanilla_temperature_expanded",
+      "packageId": "vanillaexpanded.temperature",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3202046258_vanilla_temperature_expanded.zip",
+      "sha256": "e010d3be333de12a4b6482120387c148043595ed003a8ea823294ede5b50460c"
+    },
+    {
+      "name": "Vanilla Plants Expanded - Succulents",
+      "folder": "2198652536_vanilla_plants_expanded__succulents",
+      "packageId": "vanillaexpanded.vplantsesucculents",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2198652536_vanilla_plants_expanded__succulents.zip",
+      "sha256": "e168104b9c10b266bb8e47ba648021917156b9c0d9acf4e59757a1c4485dae5e"
+    },
+    {
+      "name": "Vanilla Ideology Expanded - Splits and Schisms",
+      "folder": "2573138902_vanilla_ideology_expanded__splits_and_schisms",
+      "packageId": "vanillaexpanded.viesas",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2573138902_vanilla_ideology_expanded__splits_and_schisms.zip",
+      "sha256": "c33525585190fc7ee09cbdfe534437332e84b0046a6c5ddf5e91831b294fbac4"
+    },
+    {
+      "name": "Vanilla Ideology Expanded - Relics and Artifacts",
+      "folder": "2564895018_vanilla_ideology_expanded__relics_and_artifacts",
+      "packageId": "vanillaexpanded.ideo.relicsandartifacts",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2564895018_vanilla_ideology_expanded__relics_and_artifacts.zip",
+      "sha256": "755c46c9afa5d1c2aae0d929699480815faa3c61fad661443b69688d747108b1"
+    },
+    {
+      "name": "Vanilla Cooking Expanded",
+      "folder": "2134308519_vanilla_cooking_expanded",
+      "packageId": "vanillaexpanded.vcooke",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2134308519_vanilla_cooking_expanded.zip",
+      "sha256": "50030b6764d21e3fe7ae41af3212b2f9e32e859d534b7fd8e55408da65bf3807"
+    },
+    {
+      "name": "Alpha Animals",
+      "folder": "1541721856_alpha_animals",
+      "packageId": "sarg.alphaanimals",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1541721856_alpha_animals.zip",
+      "sha256": "69dfae1119288cd78a8e96468f8ada1fe4eb7b687b32ba26f3bb0734f094e192"
+    },
+    {
+      "name": "Vanilla Books Expanded",
+      "folder": "2193152410_vanilla_books_expanded",
+      "packageId": "vanillaexpanded.vbookse",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2193152410_vanilla_books_expanded.zip",
+      "sha256": "632c1fb7ab6bb95d12012e6dc16004e75f3e84f227eb851c3dc048ef60a65229"
+    },
+    {
+      "name": "Vanilla Ideology Expanded - Memes and Structures",
+      "folder": "2636329500_vanilla_ideology_expanded__memes_and_structures",
+      "packageId": "vanillaexpanded.vmemese",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2636329500_vanilla_ideology_expanded__memes_and_structures.zip",
+      "sha256": "33f9d342bbae4c700caca26c96d82d30de8f3b199665bdc3931643a07cdd6010"
+    },
+    {
+      "name": "Vanilla Ideology Expanded - Hats and Rags",
+      "folder": "2567387768_vanilla_ideology_expanded__hats_and_rags",
+      "packageId": "vanillaexpanded.viehar",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2567387768_vanilla_ideology_expanded__hats_and_rags.zip",
+      "sha256": "51b872ca1ea541d3de00c003cd7952dc5e7a7bda897bd344084eb77346eca346"
+    },
+    {
+      "name": "Vanilla Ideology Expanded - Dryads",
+      "folder": "2720631512_vanilla_ideology_expanded__dryads",
+      "packageId": "vanillaexpanded.ideo.dryads",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2720631512_vanilla_ideology_expanded__dryads.zip",
+      "sha256": "a5bf2c2f4385b9512cd3581f53b42c39a92e191a037cab86939c4eeb8f75125c"
+    },
+    {
+      "name": "Vanilla Hair Expanded",
+      "folder": "1888705256_vanilla_hair_expanded",
+      "packageId": "vanillaexpanded.vhe",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1888705256_vanilla_hair_expanded.zip",
+      "sha256": "3d679d04bddd43cce3a5c49385431222cf7cdbd62832d386f1eaee3c9870e124"
+    },
+    {
+      "name": "Vanilla Furniture Expanded - Art",
+      "folder": "1968134023_vanilla_furniture_expanded__art",
+      "packageId": "vanillaexpanded.vfeart",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1968134023_vanilla_furniture_expanded__art.zip",
+      "sha256": "67615cb644f73eb286051f5d9cf963c7fd3ff7e1c682c64be48371b712935b7d"
+    },
+    {
+      "name": "Vanilla Furniture Expanded - Architect",
+      "folder": "2608762624_vanilla_furniture_expanded__architect",
+      "packageId": "vanillaexpanded.vfearchitect",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2608762624_vanilla_furniture_expanded__architect.zip",
+      "sha256": "c243c1909dbdf00133e98b3100764919b83f7425cc59a886012f979f0e505676"
+    },
+    {
+      "name": "Vanilla Furniture Expanded",
+      "folder": "1718190143_vanilla_furniture_expanded",
+      "packageId": "vanillaexpanded.vfecore",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1718190143_vanilla_furniture_expanded.zip",
+      "sha256": "0445e6d2ead22a39468bbf2af48ac8cfb5cc5eb042ef8c07ead8c11d32413a56"
+    },
+    {
+      "name": "Vanilla Cooking Expanded - Bakery",
+      "folder": "3590516685_vanilla_cooking_expanded__bakery",
+      "packageId": "vanillaexpanded.vcookebakery",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3590516685_vanilla_cooking_expanded__bakery.zip",
+      "sha256": "3f8708dc832df48b659211257b2d070e5df951e90eca94665a8ef27b48e5d016"
+    },
+    {
+      "name": "Vanilla Chemfuel Expanded",
+      "folder": "2792917473_vanilla_chemfuel_expanded",
+      "packageId": "vanillaexpanded.vchemfuele",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2792917473_vanilla_chemfuel_expanded.zip",
+      "sha256": "34168fc5dea2a4735f3cdf09afb69ca79f21256c6451df133b7b9e4707731305"
+    },
+    {
+      "name": "Vanilla Brewing Expanded",
+      "folder": "2186560858_vanilla_brewing_expanded",
+      "packageId": "vanillaexpanded.vbrewe",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2186560858_vanilla_brewing_expanded.zip",
+      "sha256": "6e63a10f84a23e53d58c3bcf6d1e1aeb88631cdbb75408c13b92c2aba10ccca2"
+    },
+    {
+      "name": "Vanilla Brewing Expanded - Coffees and Teas",
+      "folder": "2275449762_vanilla_brewing_expanded__coffees_and_teas",
+      "packageId": "vanillaexpanded.vbrewecandt",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2275449762_vanilla_brewing_expanded__coffees_and_teas.zip",
+      "sha256": "5d859265458e1dadf9c32275b8e17b06b4d9073e3ff662ff7273c68c0ea5f65d"
+    },
+    {
+      "name": "Vanilla Armour Expanded",
+      "folder": "1814988282_vanilla_armour_expanded",
+      "packageId": "vanillaexpanded.varme",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1814988282_vanilla_armour_expanded.zip",
+      "sha256": "073e5f4ee3bce18b5c1aa144dd3c2c510c848a979a2559d668df49e5a740f59f"
+    },
+    {
+      "name": "Vanilla Apparel Expanded \u2014 Accessories",
+      "folder": "2521176396_vanilla_apparel_expanded__accessories",
+      "packageId": "vanillaexpanded.vaeaccessories",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2521176396_vanilla_apparel_expanded__accessories.zip",
+      "sha256": "2023b63ee801875bcee8066fa67b894f7dfc4d1f22f95a8fe338744a4d516d80"
+    },
+    {
+      "name": "Vanilla Apparel Expanded",
+      "folder": "1814987817_vanilla_apparel_expanded",
+      "packageId": "vanillaexpanded.vappe",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1814987817_vanilla_apparel_expanded.zip",
+      "sha256": "cfa505d8218eaab0184b9231f380ec1cf82a13fd235f1f63333440f08534ccb4"
+    },
+    {
+      "name": "Vanilla Animals Expanded \u2014 Royal Animals",
+      "folder": "2858079457_vanilla_animals_expanded__royal_animals",
+      "packageId": "vanillaexpanded.vaeroy",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2858079457_vanilla_animals_expanded__royal_animals.zip",
+      "sha256": "6de65c2e8f4a17a52a1587537fff2de7f9b1b0a21940374cc4b050b447b29b6e"
+    },
+    {
+      "name": "Vanilla Animals Expanded \u2014 Endangered",
+      "folder": "2366589898_vanilla_animals_expanded__endangered",
+      "packageId": "vanillaexpanded.vaeendandext",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2366589898_vanilla_animals_expanded__endangered.zip",
+      "sha256": "c03730ae3f5daebf5394d780b04cf92736c27ee3b4d6a8505d2e2ef8e5b16c1e"
+    },
+    {
+      "name": "Vanilla Animals Expanded",
+      "folder": "2871933948_vanilla_animals_expanded",
+      "packageId": "vanillaexpanded.vanillaanimalsexpanded",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2871933948_vanilla_animals_expanded.zip",
+      "sha256": "75d0cb5e8d4b836b8843eeb82253c13aef9586e9467510722d71946b8bfd32ed"
+    },
+    {
+      "name": "Ugh You Got Me",
+      "folder": "1542424705_ugh_you_got_me",
+      "packageId": "marvinkosh.ughyougotme",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1542424705_ugh_you_got_me.zip",
+      "sha256": "35201d47510e707786e1e3df0fb602b7a73ac42b9c710d2f0b461277a0be030a"
+    },
+    {
+      "name": "Stonecutting Extended",
+      "folder": "2571676542_stonecutting_extended",
+      "packageId": "scherub.stonecuttingextended",
+      "modVersion": "1.12.0",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2571676542_stonecutting_extended.zip",
+      "sha256": "806656011a77e8379b0fa9e1d80f8afa0af8d422c526fe7bd3155aac07e208fe"
+    },
+    {
+      "name": "Simple sidearms",
+      "folder": "927155256_simple_sidearms",
+      "packageId": "petetimessix.simplesidearms",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/927155256_simple_sidearms.zip",
+      "sha256": "fdfcca64512697ae979f505978511a9c04e854682b04a44654ad425feb1ac968"
+    },
+    {
+      "name": "Show Me Your Hands",
+      "folder": "2475965842_show_me_your_hands",
+      "packageId": "mlie.showmeyourhands",
+      "modVersion": "1.6.1",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2475965842_show_me_your_hands.zip",
+      "sha256": "5e313bb829174b0c0a04a135aa14da12d0d1276f0f883ce17bd37ba1284e1666"
+    },
+    {
+      "name": "RimHUD",
+      "folder": "1508850027_rimhud",
+      "packageId": "jaxe.rimhud",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1508850027_rimhud.zip",
+      "sha256": "d11c116f6bfa2579e71a5acfdb17d0dcb8a9f5e496eabedff9defb2eb6394732"
+    },
+    {
+      "name": "Replace Stuff - Continued",
+      "folder": "3526354009_replace_stuff__continued",
+      "packageId": "memegoddess.replacestuff",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3526354009_replace_stuff__continued.zip",
+      "sha256": "df145d5da3cd10956d7d888d9ea4d3dd856f29986c97264804b64116deaebefd"
+    },
+    {
+      "name": "P-Music",
+      "folder": "725130005_pmusic",
+      "packageId": "peppsen.pmusic",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/725130005_pmusic.zip",
+      "sha256": "d7be04f1fdb6c352639fc8a03b6689de4b9f1c0dfd3b410fac80cf695efa65ef"
+    },
+    {
+      "name": "Pick Up And Haul",
+      "folder": "1279012058_pick_up_and_haul",
+      "packageId": "mehni.pickupandhaul",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1279012058_pick_up_and_haul.zip",
+      "sha256": "5d28c34af538f523a8cf4129f14d70b0a456a681ba8cb8f2c4f02b60672b6649"
+    },
+    {
+      "name": "Nice Bill Tab",
+      "folder": "3520130671_nice_bill_tab",
+      "packageId": "andromeda.nicebilltab",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3520130671_nice_bill_tab.zip",
+      "sha256": "13ae536687319046af8b365b6eb948f2760b0c7125515e1261edc5c581cde93d"
+    },
+    {
+      "name": "Multiplayer Compatibility",
+      "folder": "1629973374_multiplayer_compatibility",
+      "packageId": "rwmt.multiplayercompatibility",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1629973374_multiplayer_compatibility.zip",
+      "sha256": "a18e35407a1de83d043bebf25cf2636c626ab525f6a8507f70d2e4c5cad51f49"
+    },
+    {
+      "name": "LWM's Deep Storage",
+      "folder": "3532608331_lwms_deep_storage",
+      "packageId": "lwm.deepstorage",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3532608331_lwms_deep_storage.zip",
+      "sha256": "38cbc27b3eec6ec2c0bee02431ae9bf9a239b73a71de5a94f3a6bf602e75852a"
+    },
+    {
+      "name": "Level Up!",
+      "folder": "1701592470_level_up",
+      "packageId": "krafs.levelup",
+      "modVersion": "5.3.1",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1701592470_level_up.zip",
+      "sha256": "71709862577512c14d92e829665b065c356688be1ac7d0d414291c46da59615d"
+    },
+    {
+      "name": "Knick Knacks - Let your colonists decorate!",
+      "folder": "3595196942_knick_knacks__let_your_colonists_decorate",
+      "packageId": "vaguelysexual.modpackageid.goeshere",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3595196942_knick_knacks__let_your_colonists_decorate.zip",
+      "sha256": "839dd919147727977a8ae2f09f0a33f7a6c4bf3e0c0ece95e8bb171414aacb21"
+    },
+    {
+      "name": "Interaction Bubbles",
+      "folder": "1516158345_interaction_bubbles",
+      "packageId": "jaxe.bubbles",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1516158345_interaction_bubbles.zip",
+      "sha256": "9d494ed8040f2e45f2147a0d725dc4d949337b8811240d7b8354b89e45e649e5"
+    },
+    {
+      "name": "Hospitality (Continued)",
+      "folder": "3509486825_hospitality_continued",
+      "packageId": "orion.hospitality",
+      "modVersion": "1.0.7",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3509486825_hospitality_continued.zip",
+      "sha256": "c7836b8639c9484478b03b05b1668ce6fd12d9914743574fe89c177645455c22"
+    },
+    {
+      "name": "Cash Register (Continued)",
+      "folder": "3509487668_cash_register_continued",
+      "packageId": "orion.cashregister",
+      "modVersion": "1.0.2",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3509487668_cash_register_continued.zip",
+      "sha256": "61c529258f978de2ccb542f9783114cf435fbda9413ec9300ed85618bcc9a858"
+    },
+    {
+      "name": "Hospitality: Storefront",
+      "folder": "2952321484_hospitality_storefront",
+      "packageId": "adamas.storefront",
+      "modVersion": "1.5.0",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2952321484_hospitality_storefront.zip",
+      "sha256": "f10d16eae7be6ef87cee96b6621e60316b03c4cdf9dfb1424839139ed69d65f0"
+    },
+    {
+      "name": "Dubs Bad Hygiene",
+      "folder": "836308268_dubs_bad_hygiene",
+      "packageId": "dubwise.dubsbadhygiene",
+      "modVersion": "3.1.2800",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/836308268_dubs_bad_hygiene.zip",
+      "sha256": "5d39303975237a2cccf9210a4890ce59d83cc9e8086affafff850744d6d90523"
+    },
+    {
+      "name": "Hospitality: Spa",
+      "folder": "2971831654_hospitality_spa",
+      "packageId": "adamas.hospitalityspa",
+      "modVersion": "2.1.0",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2971831654_hospitality_spa.zip",
+      "sha256": "7c9877cc91daa7b8fc52d81fa9914965f1320ba6f8962816114f2a5daa348e29"
+    },
+    {
+      "name": "Harvest And Haul",
+      "folder": "3563060965_harvest_and_haul",
+      "packageId": "laredson.harvestandhaul",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3563060965_harvest_and_haul.zip",
+      "sha256": "49af795b61abc6743c6fe7102ec4e6e9d3629a3ddf6f4e0256584fa012ba20a1"
+    },
+    {
+      "name": "Gastronomy (Continued)",
+      "folder": "3509488152_gastronomy_continued",
+      "packageId": "orion.gastronomy",
+      "modVersion": "1.0.3",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3509488152_gastronomy_continued.zip",
+      "sha256": "dc84cedc01c396856ce791f17729f979fd9e6f74a2ad49d7aeacde5b4945331a"
+    },
+    {
+      "name": "Deep Storage Plus (Continued)",
+      "folder": "2589072911_deep_storage_plus_continued",
+      "packageId": "mlie.deepstorageplus",
+      "modVersion": "1.6.0",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2589072911_deep_storage_plus_continued.zip",
+      "sha256": "5a19675c9605aba7f5222f625b1f1259818e653eae3dd4d67524194dedc24bbc"
+    },
+    {
+      "name": "Damage Indicators [1.6]",
+      "folder": "2016331497_damage_indicators_16",
+      "packageId": "caesarv6.damageindicators",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2016331497_damage_indicators_16.zip",
+      "sha256": "7ef33b7661ec50cc0d346be1b6f10f2da0e49c2ea81756b9d1ab00f27db966df"
+    },
+    {
+      "name": "Common Sense",
+      "folder": "1561769193_common_sense",
+      "packageId": "avilmask.commonsense",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1561769193_common_sense.zip",
+      "sha256": "53bfba15bb4c009ff8394a5653cc9d7c39e22b497717ca492c2a449a84e8efae"
+    },
+    {
+      "name": "CM Color Coded Mood Bar [1.1+]",
+      "folder": "2006605356_cm_color_coded_mood_bar_11",
+      "packageId": "crashm.colorcodedmoodbar.11",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2006605356_cm_color_coded_mood_bar_11.zip",
+      "sha256": "41cecba9a9a5811c77deb865da1ca6942621c200abbeca135ba4843aae86db55"
+    },
+    {
+      "name": "Camping Tent",
+      "folder": "2407128339_camping_tent",
+      "packageId": "aoba.tent",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2407128339_camping_tent.zip",
+      "sha256": "9f6a54955c5021e1f114b8285b5dfa6a9ba71ff085373543dc6c417254461bca"
+    },
+    {
+      "name": "Architect Icons",
+      "folder": "1195427067_architect_icons",
+      "packageId": "com.bymarcin.architecticons",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/1195427067_architect_icons.zip",
+      "sha256": "881430b551b402ee29e3d0a81ec7f9e50697d0c4d6941db540d0f6a38b7dd860"
+    },
+    {
+      "name": "Ambient Rim",
+      "folder": "3158997430_ambient_rim",
+      "packageId": "swablu.ambience",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3158997430_ambient_rim.zip",
+      "sha256": "b4e6e6c11c6261fdf753848e0ce9d78f250c8c6e8ef061e1429af9b65517fcd9"
+    },
+    {
+      "name": "Alpha Random",
+      "folder": "3642631969_alpha_random",
+      "packageId": "sarg.alpharandom",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3642631969_alpha_random.zip",
+      "sha256": "60b01b8fc301d2b0cf92ab352ef36527d98fb146f3a5686d05c8d1d7c583cbd1"
+    },
+    {
+      "name": "Alpha Armoury",
+      "folder": "3622294464_alpha_armoury",
+      "packageId": "sarg.alphaarmoury",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/3622294464_alpha_armoury.zip",
+      "sha256": "50e3167f85c099229ea7f8fda4abe12fd46733bf16bc169c976ed41fdb059759"
+    },
+    {
+      "name": "[NL] Dynamic Portraits",
+      "folder": "2253730555_nl_dynamic_portraits",
+      "packageId": "nals.dynamicportraits",
+      "modVersion": "1.6",
+      "url": "https://github.com/weedoozas/multirim-launcher-test/releases/download/mods-v3/2253730555_nl_dynamic_portraits.zip",
+      "sha256": "cbe47946d2e30256efc4756f7c870d59229e751e1df91c40c6c6d802e933715d"
     }
   ]
 }
